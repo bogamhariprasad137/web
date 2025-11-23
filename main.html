@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <article class="article">
+        <section id="sectionhome">
+            <section class="nav-bar d-flex justify-content-between">
+                <img src="data:image/jpeg;base64,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" class="brand-logo" />
+                <nav class="nav-links-container">
+                    <a class="nav-item" href="#" onclick="display('#section')">Home</a>
+                    <a class="nav-item" href="#">About Us</a>
+                    <a class="nav-item" href="#">Contact </a>
+                    <a class="nav-item" href="#">Order</a>
+                </nav>
+            </section>
+            <section class="section1">
+                <h1 class="heading">Delicious</h1>
+                <p class="paragraph">Ice Cream</p>
+                <p class="paragrap1">want to eat ice cream<br />then click here</p>
+                <button class="button" onclick="display('sectionmenu')">menu</button>
+            </section>
+        </section>
+        <section id="sectionmenu">
+            <section class="section2">
+                <h1 class="heading1">ICE CREAM</h1>
+                <h2 class="heading1"> MENU</h2>
+                <section class="sectionbox">open 7:00AM -18PM </section>
+                <section class="sectionleft d-flex flex-row">
+                    <img class="img-menu" src="" alt="" />
+                    <section class="section-para1-menu">
+                        <section class="sectionbowl">ICE CREAM BOWL</section>
+                        <p class="paragraphmenu" onclick="display('section')">$5........Chocolate</p>
+                        <p class="paragraphmenu" onclick="display('section')">$4........strawberry</p>
+                        <p class="paragraphmenu" onclick="display('section')">$3........Vanillaaaa</p>
+                    </section>
+                </section>
+                <section class="sectionright d-flex flex-row">
+                    <section class="section-para2-menu">
+                        <section class="sectionSOOP">ICE CREAM SCOOP</section>
+                        <p class="paragraphmenu" onclick="display('section')">$5........Chocolate</p>
+                        <p class="paragraphmenu" onclick="display('section')">$4........strawberry</p>
+                        <p class="paragraphmenu" onclick="display('section')">$3........Vanillaaaa</p>
+                    </section>
+                    <img class="img-menu" src="" alt="" />
+                </section>
+                <button class="button" onclick="display('sectionhome')">back</button>
+            </section>
+        </section>
+        <section id="section">
+
+        </section>
+    </article>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script> 
+</body>
+</html>
